@@ -1,9 +1,6 @@
-ctypedef int calk
+from libc cimport math
 
 cdef class MyClass:
-    cdef:
-        int value
-
     def __cinit__(self, v):
         self.value = v
 
@@ -13,4 +10,5 @@ cdef class MyClass:
     cpdef int squared(self):
         return self.value * self.value
 
-
+    cpdef double c_sin(self):
+        return math.sin(self.value)
