@@ -7,4 +7,5 @@ Chapters:
   * step 1 - pure Python
   * step 2 - move to .pyx
   * step 3 - static typing and move sin2 to .pyx
-  * step 4 - use sin function from C lirbary
+  * step 4 - use sin function from C library
+- 10 - Cython, NumPy and Typed Memoryviews 
