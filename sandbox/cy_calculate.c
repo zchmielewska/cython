@@ -3,12 +3,12 @@
 /* BEGIN: Cython Metadata
 {
     "distutils": {
-        "name": "cy_test",
+        "name": "cy_calculate",
         "sources": [
-            "cy_test.pyx"
+            "cy_calculate.pyx"
         ]
     },
-    "module_name": "cy_test"
+    "module_name": "cy_calculate"
 }
 END: Cython Metadata */
 
@@ -1085,8 +1085,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__cy_test
-#define __PYX_HAVE_API__cy_test
+#define __PYX_HAVE__cy_calculate
+#define __PYX_HAVE_API__cy_calculate
 /* Early includes */
 #ifdef _OPENMP
 #include <omp.h>
@@ -1350,7 +1350,7 @@ static const char *__pyx_filename;
 /* #### Code section: filename_table ### */
 
 static const char *__pyx_f[] = {
-  "cy_test.pyx",
+  "cy_calculate.pyx",
 };
 /* #### Code section: utility_code_proto_before_types ### */
 /* #### Code section: numeric_typedefs ### */
@@ -1845,15 +1845,15 @@ static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
 /* #### Code section: module_declarations ### */
 
-/* Module declarations from "cy_test" */
-static void __pyx_f_7cy_test_calculate_cpp(PyObject *, int __pyx_skip_dispatch); /*proto*/
+/* Module declarations from "cy_calculate" */
+static void __pyx_f_12cy_calculate_calculate(PyObject *, int __pyx_skip_dispatch); /*proto*/
 /* #### Code section: typeinfo ### */
 /* #### Code section: before_global_var ### */
-#define __Pyx_MODULE_NAME "cy_test"
-extern int __pyx_module_is_main_cy_test;
-int __pyx_module_is_main_cy_test = 0;
+#define __Pyx_MODULE_NAME "cy_calculate"
+extern int __pyx_module_is_main_cy_calculate;
+int __pyx_module_is_main_cy_calculate = 0;
 
-/* Implementation of "cy_test" */
+/* Implementation of "cy_calculate" */
 /* #### Code section: global_var ### */
 static PyObject *__pyx_builtin_range;
 /* #### Code section: string_decls ### */
@@ -1863,14 +1863,14 @@ static const char __pyx_k_main[] = "__main__";
 static const char __pyx_k_name[] = "__name__";
 static const char __pyx_k_test[] = "__test__";
 static const char __pyx_k_range[] = "range";
-static const char __pyx_k_cy_test[] = "cy_test";
-static const char __pyx_k_cy_test_pyx[] = "cy_test.pyx";
+static const char __pyx_k_calculate[] = "calculate";
+static const char __pyx_k_cy_calculate[] = "cy_calculate";
 static const char __pyx_k_is_coroutine[] = "_is_coroutine";
-static const char __pyx_k_calculate_cpp[] = "calculate_cpp";
+static const char __pyx_k_cy_calculate_pyx[] = "cy_calculate.pyx";
 static const char __pyx_k_asyncio_coroutines[] = "asyncio.coroutines";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
 /* #### Code section: decls ### */
-static PyObject *__pyx_pf_7cy_test_calculate_cpp(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_func); /* proto */
+static PyObject *__pyx_pf_12cy_calculate_calculate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_func); /* proto */
 /* #### Code section: late_includes ### */
 /* #### Code section: module_state ### */
 typedef struct {
@@ -1902,10 +1902,10 @@ typedef struct {
   #endif
   PyObject *__pyx_n_s__3;
   PyObject *__pyx_n_s_asyncio_coroutines;
-  PyObject *__pyx_n_s_calculate_cpp;
+  PyObject *__pyx_n_s_calculate;
   PyObject *__pyx_n_s_cline_in_traceback;
-  PyObject *__pyx_n_s_cy_test;
-  PyObject *__pyx_kp_s_cy_test_pyx;
+  PyObject *__pyx_n_s_cy_calculate;
+  PyObject *__pyx_kp_s_cy_calculate_pyx;
   PyObject *__pyx_n_s_func;
   PyObject *__pyx_n_s_is_coroutine;
   PyObject *__pyx_n_s_main;
@@ -1958,10 +1958,10 @@ static int __pyx_m_clear(PyObject *m) {
   #endif
   Py_CLEAR(clear_module_state->__pyx_n_s__3);
   Py_CLEAR(clear_module_state->__pyx_n_s_asyncio_coroutines);
-  Py_CLEAR(clear_module_state->__pyx_n_s_calculate_cpp);
+  Py_CLEAR(clear_module_state->__pyx_n_s_calculate);
   Py_CLEAR(clear_module_state->__pyx_n_s_cline_in_traceback);
-  Py_CLEAR(clear_module_state->__pyx_n_s_cy_test);
-  Py_CLEAR(clear_module_state->__pyx_kp_s_cy_test_pyx);
+  Py_CLEAR(clear_module_state->__pyx_n_s_cy_calculate);
+  Py_CLEAR(clear_module_state->__pyx_kp_s_cy_calculate_pyx);
   Py_CLEAR(clear_module_state->__pyx_n_s_func);
   Py_CLEAR(clear_module_state->__pyx_n_s_is_coroutine);
   Py_CLEAR(clear_module_state->__pyx_n_s_main);
@@ -1992,10 +1992,10 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   #endif
   Py_VISIT(traverse_module_state->__pyx_n_s__3);
   Py_VISIT(traverse_module_state->__pyx_n_s_asyncio_coroutines);
-  Py_VISIT(traverse_module_state->__pyx_n_s_calculate_cpp);
+  Py_VISIT(traverse_module_state->__pyx_n_s_calculate);
   Py_VISIT(traverse_module_state->__pyx_n_s_cline_in_traceback);
-  Py_VISIT(traverse_module_state->__pyx_n_s_cy_test);
-  Py_VISIT(traverse_module_state->__pyx_kp_s_cy_test_pyx);
+  Py_VISIT(traverse_module_state->__pyx_n_s_cy_calculate);
+  Py_VISIT(traverse_module_state->__pyx_kp_s_cy_calculate_pyx);
   Py_VISIT(traverse_module_state->__pyx_n_s_func);
   Py_VISIT(traverse_module_state->__pyx_n_s_is_coroutine);
   Py_VISIT(traverse_module_state->__pyx_n_s_main);
@@ -2036,10 +2036,10 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #endif
 #define __pyx_n_s__3 __pyx_mstate_global->__pyx_n_s__3
 #define __pyx_n_s_asyncio_coroutines __pyx_mstate_global->__pyx_n_s_asyncio_coroutines
-#define __pyx_n_s_calculate_cpp __pyx_mstate_global->__pyx_n_s_calculate_cpp
+#define __pyx_n_s_calculate __pyx_mstate_global->__pyx_n_s_calculate
 #define __pyx_n_s_cline_in_traceback __pyx_mstate_global->__pyx_n_s_cline_in_traceback
-#define __pyx_n_s_cy_test __pyx_mstate_global->__pyx_n_s_cy_test
-#define __pyx_kp_s_cy_test_pyx __pyx_mstate_global->__pyx_kp_s_cy_test_pyx
+#define __pyx_n_s_cy_calculate __pyx_mstate_global->__pyx_n_s_cy_calculate
+#define __pyx_kp_s_cy_calculate_pyx __pyx_mstate_global->__pyx_kp_s_cy_calculate_pyx
 #define __pyx_n_s_func __pyx_mstate_global->__pyx_n_s_func
 #define __pyx_n_s_is_coroutine __pyx_mstate_global->__pyx_n_s_is_coroutine
 #define __pyx_n_s_main __pyx_mstate_global->__pyx_n_s_main
@@ -2050,20 +2050,20 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_codeobj__2 __pyx_mstate_global->__pyx_codeobj__2
 /* #### Code section: module_code ### */
 
-/* "cy_test.pyx":1
- * cpdef void calculate_cpp(func):             # <<<<<<<<<<<<<<
+/* "cy_calculate.pyx":1
+ * cpdef void calculate(func):             # <<<<<<<<<<<<<<
  *     cdef:
  *         int t
  */
 
-static PyObject *__pyx_pw_7cy_test_1calculate_cpp(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_12cy_calculate_1calculate(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static void __pyx_f_7cy_test_calculate_cpp(PyObject *__pyx_v_func, CYTHON_UNUSED int __pyx_skip_dispatch) {
+static void __pyx_f_12cy_calculate_calculate(PyObject *__pyx_v_func, CYTHON_UNUSED int __pyx_skip_dispatch) {
   int __pyx_v_t;
   __Pyx_RefNannyDeclarations
   int __pyx_t_1;
@@ -2075,9 +2075,9 @@ static void __pyx_f_7cy_test_calculate_cpp(PyObject *__pyx_v_func, CYTHON_UNUSED
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("calculate_cpp", 0);
+  __Pyx_RefNannySetupContext("calculate", 0);
 
-  /* "cy_test.pyx":5
+  /* "cy_calculate.pyx":5
  *         int t
  * 
  *     for t in range(1000):             # <<<<<<<<<<<<<<
@@ -2086,7 +2086,7 @@ static void __pyx_f_7cy_test_calculate_cpp(PyObject *__pyx_v_func, CYTHON_UNUSED
   for (__pyx_t_1 = 0; __pyx_t_1 < 0x3E8; __pyx_t_1+=1) {
     __pyx_v_t = __pyx_t_1;
 
-    /* "cy_test.pyx":6
+    /* "cy_calculate.pyx":6
  * 
  *     for t in range(1000):
  *         func(t)             # <<<<<<<<<<<<<<
@@ -2118,8 +2118,8 @@ static void __pyx_f_7cy_test_calculate_cpp(PyObject *__pyx_v_func, CYTHON_UNUSED
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
 
-  /* "cy_test.pyx":1
- * cpdef void calculate_cpp(func):             # <<<<<<<<<<<<<<
+  /* "cy_calculate.pyx":1
+ * cpdef void calculate(func):             # <<<<<<<<<<<<<<
  *     cdef:
  *         int t
  */
@@ -2131,21 +2131,21 @@ static void __pyx_f_7cy_test_calculate_cpp(PyObject *__pyx_v_func, CYTHON_UNUSED
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("cy_test.calculate_cpp", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cy_calculate.calculate", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
 }
 
 /* Python wrapper */
-static PyObject *__pyx_pw_7cy_test_1calculate_cpp(PyObject *__pyx_self, 
+static PyObject *__pyx_pw_12cy_calculate_1calculate(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
 PyObject *__pyx_args, PyObject *__pyx_kwds
 #endif
 ); /*proto*/
-static PyMethodDef __pyx_mdef_7cy_test_1calculate_cpp = {"calculate_cpp", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_7cy_test_1calculate_cpp, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_7cy_test_1calculate_cpp(PyObject *__pyx_self, 
+static PyMethodDef __pyx_mdef_12cy_calculate_1calculate = {"calculate", (PyCFunction)(void*)(__Pyx_PyCFunction_FastCallWithKeywords)__pyx_pw_12cy_calculate_1calculate, __Pyx_METH_FASTCALL|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_12cy_calculate_1calculate(PyObject *__pyx_self, 
 #if CYTHON_METH_FASTCALL
 PyObject *const *__pyx_args, Py_ssize_t __pyx_nargs, PyObject *__pyx_kwds
 #else
@@ -2162,7 +2162,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   int __pyx_clineno = 0;
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("calculate_cpp (wrapper)", 0);
+  __Pyx_RefNannySetupContext("calculate (wrapper)", 0);
   {
     PyObject **__pyx_pyargnames[] = {&__pyx_n_s_func,0};
     PyObject* values[1] = {0};
@@ -2183,7 +2183,7 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
       }
       if (unlikely(kw_args > 0)) {
         const Py_ssize_t kwd_pos_args = __pyx_nargs;
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "calculate_cpp") < 0)) __PYX_ERR(0, 1, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_kwvalues, __pyx_pyargnames, 0, values + 0, kwd_pos_args, "calculate") < 0)) __PYX_ERR(0, 1, __pyx_L3_error)
       }
     } else if (unlikely(__pyx_nargs != 1)) {
       goto __pyx_L5_argtuple_error;
@@ -2194,29 +2194,29 @@ PyObject *__pyx_args, PyObject *__pyx_kwds
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("calculate_cpp", 1, 1, 1, __pyx_nargs); __PYX_ERR(0, 1, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("calculate", 1, 1, 1, __pyx_nargs); __PYX_ERR(0, 1, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("cy_test.calculate_cpp", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cy_calculate.calculate", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_7cy_test_calculate_cpp(__pyx_self, __pyx_v_func);
+  __pyx_r = __pyx_pf_12cy_calculate_calculate(__pyx_self, __pyx_v_func);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_7cy_test_calculate_cpp(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_func) {
+static PyObject *__pyx_pf_12cy_calculate_calculate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_func) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("calculate_cpp", 0);
+  __Pyx_RefNannySetupContext("calculate", 0);
   __Pyx_XDECREF(__pyx_r);
-  __pyx_f_7cy_test_calculate_cpp(__pyx_v_func, 0); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_f_12cy_calculate_calculate(__pyx_v_func, 0); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_t_1 = __Pyx_void_to_None(NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -2226,7 +2226,7 @@ static PyObject *__pyx_pf_7cy_test_calculate_cpp(CYTHON_UNUSED PyObject *__pyx_s
   /* function exit code */
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_AddTraceback("cy_test.calculate_cpp", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("cy_calculate.calculate", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XGIVEREF(__pyx_r);
@@ -2252,10 +2252,10 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
   __Pyx_StringTabEntry __pyx_string_tab[] = {
     {&__pyx_n_s__3, __pyx_k__3, sizeof(__pyx_k__3), 0, 0, 1, 1},
     {&__pyx_n_s_asyncio_coroutines, __pyx_k_asyncio_coroutines, sizeof(__pyx_k_asyncio_coroutines), 0, 0, 1, 1},
-    {&__pyx_n_s_calculate_cpp, __pyx_k_calculate_cpp, sizeof(__pyx_k_calculate_cpp), 0, 0, 1, 1},
+    {&__pyx_n_s_calculate, __pyx_k_calculate, sizeof(__pyx_k_calculate), 0, 0, 1, 1},
     {&__pyx_n_s_cline_in_traceback, __pyx_k_cline_in_traceback, sizeof(__pyx_k_cline_in_traceback), 0, 0, 1, 1},
-    {&__pyx_n_s_cy_test, __pyx_k_cy_test, sizeof(__pyx_k_cy_test), 0, 0, 1, 1},
-    {&__pyx_kp_s_cy_test_pyx, __pyx_k_cy_test_pyx, sizeof(__pyx_k_cy_test_pyx), 0, 0, 1, 0},
+    {&__pyx_n_s_cy_calculate, __pyx_k_cy_calculate, sizeof(__pyx_k_cy_calculate), 0, 0, 1, 1},
+    {&__pyx_kp_s_cy_calculate_pyx, __pyx_k_cy_calculate_pyx, sizeof(__pyx_k_cy_calculate_pyx), 0, 0, 1, 0},
     {&__pyx_n_s_func, __pyx_k_func, sizeof(__pyx_k_func), 0, 0, 1, 1},
     {&__pyx_n_s_is_coroutine, __pyx_k_is_coroutine, sizeof(__pyx_k_is_coroutine), 0, 0, 1, 1},
     {&__pyx_n_s_main, __pyx_k_main, sizeof(__pyx_k_main), 0, 0, 1, 1},
@@ -2279,15 +2279,15 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "cy_test.pyx":1
- * cpdef void calculate_cpp(func):             # <<<<<<<<<<<<<<
+  /* "cy_calculate.pyx":1
+ * cpdef void calculate(func):             # <<<<<<<<<<<<<<
  *     cdef:
  *         int t
  */
   __pyx_tuple_ = PyTuple_Pack(1, __pyx_n_s_func); if (unlikely(!__pyx_tuple_)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple_);
   __Pyx_GIVEREF(__pyx_tuple_);
-  __pyx_codeobj__2 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple_, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_cy_test_pyx, __pyx_n_s_calculate_cpp, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__2)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_codeobj__2 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple_, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_cy_calculate_pyx, __pyx_n_s_calculate, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__2)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -2377,10 +2377,10 @@ static int __Pyx_modinit_function_import_code(void) {
 #if PY_MAJOR_VERSION >= 3
 #if CYTHON_PEP489_MULTI_PHASE_INIT
 static PyObject* __pyx_pymod_create(PyObject *spec, PyModuleDef *def); /*proto*/
-static int __pyx_pymod_exec_cy_test(PyObject* module); /*proto*/
+static int __pyx_pymod_exec_cy_calculate(PyObject* module); /*proto*/
 static PyModuleDef_Slot __pyx_moduledef_slots[] = {
   {Py_mod_create, (void*)__pyx_pymod_create},
-  {Py_mod_exec, (void*)__pyx_pymod_exec_cy_test},
+  {Py_mod_exec, (void*)__pyx_pymod_exec_cy_calculate},
   {0, NULL}
 };
 #endif
@@ -2393,7 +2393,7 @@ namespace {
   #endif
   {
       PyModuleDef_HEAD_INIT,
-      "cy_test",
+      "cy_calculate",
       0, /* m_doc */
     #if CYTHON_PEP489_MULTI_PHASE_INIT
       0, /* m_size */
@@ -2441,11 +2441,11 @@ namespace {
 
 
 #if PY_MAJOR_VERSION < 3
-__Pyx_PyMODINIT_FUNC initcy_test(void) CYTHON_SMALL_CODE; /*proto*/
-__Pyx_PyMODINIT_FUNC initcy_test(void)
+__Pyx_PyMODINIT_FUNC initcy_calculate(void) CYTHON_SMALL_CODE; /*proto*/
+__Pyx_PyMODINIT_FUNC initcy_calculate(void)
 #else
-__Pyx_PyMODINIT_FUNC PyInit_cy_test(void) CYTHON_SMALL_CODE; /*proto*/
-__Pyx_PyMODINIT_FUNC PyInit_cy_test(void)
+__Pyx_PyMODINIT_FUNC PyInit_cy_calculate(void) CYTHON_SMALL_CODE; /*proto*/
+__Pyx_PyMODINIT_FUNC PyInit_cy_calculate(void)
 #if CYTHON_PEP489_MULTI_PHASE_INIT
 {
   return PyModuleDef_Init(&__pyx_moduledef);
@@ -2526,7 +2526,7 @@ bad:
 }
 
 
-static CYTHON_SMALL_CODE int __pyx_pymod_exec_cy_test(PyObject *__pyx_pyinit_module)
+static CYTHON_SMALL_CODE int __pyx_pymod_exec_cy_calculate(PyObject *__pyx_pyinit_module)
 #endif
 #endif
 {
@@ -2543,7 +2543,7 @@ static CYTHON_SMALL_CODE int __pyx_pymod_exec_cy_test(PyObject *__pyx_pyinit_mod
   #if CYTHON_PEP489_MULTI_PHASE_INIT
   if (__pyx_m) {
     if (__pyx_m == __pyx_pyinit_module) return 0;
-    PyErr_SetString(PyExc_RuntimeError, "Module 'cy_test' has already been imported. Re-initialisation is not supported.");
+    PyErr_SetString(PyExc_RuntimeError, "Module 'cy_calculate' has already been imported. Re-initialisation is not supported.");
     return -1;
   }
   #elif PY_MAJOR_VERSION >= 3
@@ -2555,13 +2555,13 @@ static CYTHON_SMALL_CODE int __pyx_pymod_exec_cy_test(PyObject *__pyx_pyinit_mod
   Py_INCREF(__pyx_m);
   #else
   #if PY_MAJOR_VERSION < 3
-  __pyx_m = Py_InitModule4("cy_test", __pyx_methods, 0, 0, PYTHON_API_VERSION); Py_XINCREF(__pyx_m);
+  __pyx_m = Py_InitModule4("cy_calculate", __pyx_methods, 0, 0, PYTHON_API_VERSION); Py_XINCREF(__pyx_m);
   if (unlikely(!__pyx_m)) __PYX_ERR(0, 1, __pyx_L1_error)
   #elif CYTHON_USE_MODULE_STATE
   __pyx_t_1 = PyModule_Create(&__pyx_moduledef); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1, __pyx_L1_error)
   {
     int add_module_result = PyState_AddModule(__pyx_t_1, &__pyx_moduledef);
-    __pyx_t_1 = 0; /* transfer ownership from __pyx_t_1 to cy_test pseudovariable */
+    __pyx_t_1 = 0; /* transfer ownership from __pyx_t_1 to cy_calculate pseudovariable */
     if (unlikely((add_module_result < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
     pystate_addmodule_run = 1;
   }
@@ -2587,7 +2587,7 @@ if (!__Pyx_RefNanny) {
       Py_FatalError("failed to import 'refnanny' module");
 }
 #endif
-  __Pyx_RefNannySetupContext("__Pyx_PyMODINIT_FUNC PyInit_cy_test(void)", 0);
+  __Pyx_RefNannySetupContext("__Pyx_PyMODINIT_FUNC PyInit_cy_calculate(void)", 0);
   if (__Pyx_check_binary_version() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #ifdef __Pxy_PyFrame_Initialize_Offsets
   __Pxy_PyFrame_Initialize_Offsets();
@@ -2625,14 +2625,14 @@ if (!__Pyx_RefNanny) {
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_cy_test) {
+  if (__pyx_module_is_main_cy_calculate) {
     if (PyObject_SetAttr(__pyx_m, __pyx_n_s_name, __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "cy_test")) {
-      if (unlikely((PyDict_SetItemString(modules, "cy_test", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "cy_calculate")) {
+      if (unlikely((PyDict_SetItemString(modules, "cy_calculate", __pyx_m) < 0))) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -2653,14 +2653,14 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "cy_test.pyx":1
- * cpdef void calculate_cpp(func):             # <<<<<<<<<<<<<<
+  /* "cy_calculate.pyx":1
+ * cpdef void calculate(func):             # <<<<<<<<<<<<<<
  *     cdef:
  *         int t
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_7cy_test_1calculate_cpp, 0, __pyx_n_s_calculate_cpp, NULL, __pyx_n_s_cy_test, __pyx_d, ((PyObject *)__pyx_codeobj__2)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_12cy_calculate_1calculate, 0, __pyx_n_s_calculate, NULL, __pyx_n_s_cy_calculate, __pyx_d, ((PyObject *)__pyx_codeobj__2)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_calculate_cpp, __pyx_t_2) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_calculate, __pyx_t_2) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -2674,7 +2674,7 @@ if (!__Pyx_RefNanny) {
   __Pyx_XDECREF(__pyx_t_2);
   if (__pyx_m) {
     if (__pyx_d && stringtab_initialized) {
-      __Pyx_AddTraceback("init cy_test", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init cy_calculate", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     #if !CYTHON_USE_MODULE_STATE
     Py_CLEAR(__pyx_m);
@@ -2688,7 +2688,7 @@ if (!__Pyx_RefNanny) {
     }
     #endif
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init cy_test");
+    PyErr_SetString(PyExc_ImportError, "init cy_calculate");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

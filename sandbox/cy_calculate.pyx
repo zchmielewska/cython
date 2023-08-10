@@ -1,4 +1,4 @@
-cpdef void calculate_cpp(func):
+cpdef void calculate(func):
     cdef:
         int t
 
